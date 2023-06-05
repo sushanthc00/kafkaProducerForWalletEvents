@@ -1,2 +1,4 @@
-package kafka.producer.kafkaproducerforwalletevents.kafka;public class KafkaProducer {
+package kafka.producer.kafkaproducerforwalletevents.kafka;
+
+public class KafkaProducer {
 }
