@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class InitializeTypeWltSafeTxn {
 
-    TypeWltSafeTxn initializeSafeTxnObject(String username, String sessionId){
+    public TypeWltSafeTxn initializeSafeTxnObject(String username, String sessionId){
         Random random = new Random();
 
         TypeWltSafeTxn typeWltSafeTxn = new TypeWltSafeTxn();

@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class InitializeWalletTxnEvent {
 
-    WalletTxnEvent initializeWalletObject(long id, String username, long sesssionId){
+    public WalletTxnEvent initializeWalletObject(long id, String username, long sesssionId){
 
         Random random = new Random();
 
