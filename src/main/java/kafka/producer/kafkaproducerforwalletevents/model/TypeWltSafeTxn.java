@@ -2,7 +2,7 @@ package kafka.producer.kafkaproducerforwalletevents.model;
 
 import lombok.*;
 
-import java.util.Date;
+import java.sql.Timestamp;
 
 @Getter
 @Setter
@@ -14,7 +14,7 @@ public class TypeWltSafeTxn {
     private String accountName;
     private String requestorRefId;
     private long wltRefId;
-    private String sessionId;
+    private long sessionId;
     private long startBalance;
     private long amountUsed;
     private long endBalance;
@@ -23,7 +23,7 @@ public class TypeWltSafeTxn {
     private String productId;
     private String brandId;
     private String gameType;
-    private Date createdDate;
+    private Timestamp createdDate;
     private String operation;
     private long txnType;
     private long fsSeqId;

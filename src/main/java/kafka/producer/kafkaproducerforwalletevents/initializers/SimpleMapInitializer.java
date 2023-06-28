@@ -1,5 +1,6 @@
 package kafka.producer.kafkaproducerforwalletevents.initializers;
 
+import java.sql.Timestamp;
 import java.util.ArrayList;
 
 
@@ -11,5 +12,9 @@ public class SimpleMapInitializer {
             players.add("bz_bwin" + i);
         }
         return players;
+    }
+
+    public Timestamp getCreatedTs(){
+        return new Timestamp(System.currentTimeMillis());
     }
 }
